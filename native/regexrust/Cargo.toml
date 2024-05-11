@@ -10,8 +10,8 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-regex = "1"
-rustler = "0.22"
+regex = "^1.10.4"
+rustler = "^0.32.1"
 
 [profile.release]
 codegen-units = 1
